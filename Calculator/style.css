@@ -1,0 +1,110 @@
+.whole-page {
+    max-width: 280px;
+    background: rgba(188, 42, 94, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10.5px);
+    -webkit-backdrop-filter: blur(10.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    justify-content: center;
+    margin: auto;
+    margin-top: 75px;
+  }
+  .num-but {
+    color: white;
+    background-color: rgb(51, 51, 51);
+    height: 60px;
+    width: 60px;
+    border-radius: 60px;
+    border: none;
+    font-size: 26px;
+    cursor: pointer;
+    margin-left: 5px;
+    justify-content: center;
+  }
+  .Orange-button {
+    background-color: rgb(254, 160, 10);
+    height: 60px;
+    width: 60px;
+    border-radius: 60px;
+    border: none;
+    font-size: 26px;
+    cursor: pointer;
+    margin-left: 5px;
+    color: white;
+  }
+  .clear-button {
+    font-size: 17px;
+    color: white;
+    background-color: rgb(51, 51, 51);
+    height: 60px;
+    width: 60px;
+    border-radius: 60px;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  .Del-button {
+    font-size: 17px;
+    color: white;
+    background-color: rgb(51, 51, 51);
+    height: 60px;
+    width: 60px;
+    border-radius: 60px;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  .display {
+    background-color: black;
+    border: 20px;
+    border-radius: 13px 10px;
+    margin-bottom: 16px;
+    text-align: right;
+    padding-right: 15px;
+    padding-bottom: 0.7em;
+    height: 5em;
+    font-size: 1.2em;
+    font-weight: 400;
+    overflow: hidden;
+  }
+  .calculation-display {
+    padding-top: 10px;
+    height: 2em;
+    color: white;
+    font-size: 1em;
+    font-weight: 400;
+  }
+  .result-display {
+    color: aqua;
+    height: 5em;
+    font-weight: 500;
+    margin-top: -20px;
+    font-size: 1.3em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .Update-btn {
+    background-color: white;
+    border-color: rgb(41, 118, 211);
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(41, 118, 211);
+    width: 75px;
+    border-radius: 14px 14px 14px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 1s, color 1s;
+    margin: auto;
+    justify-content: center;
+    margin-left: 290px;
+    margin-top: 35px;
+  }
+  .num-but:hover {
+    background-color: rgb(0, 255, 255);
+    color: rgb(15, 2, 2);
+  }
+  .num-but:active {
+    opacity: 0.7;
+  }
