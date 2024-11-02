@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Offfield Product Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <a href="#" class="logo" onclick="showSection('home')">Offfield</a>
+      <ul class="nav-links">
+        <li><a href="#" onclick="showSection('home')">Home</a></li>
+        <li><a href="#" onclick="showSection('products')">Products</a></li>
+        <li><a href="#" onclick="showSection('about')">About Us</a></li>
+        <li><a href="#" onclick="showSection('contact')">Contact</a></li>
+      </ul>
+      <div class="hamburger-menu" id="hamburgerMenu">&#9776;</div>
+    </nav>
+  </header>
+<!-- Sections with IDs for switching -->
+<section id="home" class="content-section" style="display: block;"> 
+  <!-- Home content here, including hero section --> </section>
+  <!-- Hero Section -->
+  <div class="hero">
+    <h1>Discover Performance Essentials</h1>
+    <p>Fuel your active lifestyle with our premium products</p>
+    <a href="#" class="cta-button" onclick="showSectiion('products')">Shop Now</a>
+    </div>
+  </section>
+<section id="products" class="content-section" style="display: none;">
+ <!-- Products content here --> 
+ <!-- Product Section -->
+  
+ <h2>Our Products</h2>
+ <div class="product-gallery">
+   <div class="product-card">
+     <img src="product1.jpg" alt="Product 1">
+     <h3>Product Name 1</h3>
+     <p>$29.99</p>
+   </div>
+   <div class="product-card">
+     <img src="product2.jpg" alt="Product 2">
+     <h3>Product Name 2</h3>
+     <p>$34.99</p>
+   </div>
+   <!-- Add more products as needed -->
+ </div>
+</section>
+<section id="about" class="content-section" style="display: none;">
+   <!-- About content here --> </section>
+   <h2>About Us</h2>
+   <p>Information about the company goes here</p>
+</section>
+<section id="contact" class="content-section" style="display: none;"> 
+  <!-- Contact content here --> </section>
+  <h2>Contact</h2>
+  <p>Contact details and form go here</p>
+</section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Offfield. All rights reserved.</p>
+    <ul class="social-links">
+      <li><a href="#">Instagram</a></li>
+      <li><a href="#">Facebook</a></li>
+      <li><a href="#">Twitter</a></li>
+    </ul>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

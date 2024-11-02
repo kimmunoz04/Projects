@@ -1,0 +1,32 @@
+body {
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.gallery{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 10px;
+}
+.gallery-itme img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+
+}
+
+/*responsive adjustments*/
+
+@media (max-width: 768) {
+    .gallery-itme {
+        flex: 1 1 calc(50% -20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery-item {
+        flex: 1 1 calc(100% - 20px);
+    }
+}
