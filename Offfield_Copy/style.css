@@ -225,6 +225,13 @@ body {
     text-decoration: underline;
     color: salmon
   }
+ 
+  #store-locator .locator-search {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
   
   /* Media Queries for Mobile */
   @media (max-width: 480px) {
