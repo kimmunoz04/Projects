@@ -1,0 +1,33 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f38cd1;
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 3rem;
+    color: #ff4081;
+}
+
+.button {
+    padding: 1rem 2rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    color: #ff6666;
+    background-color: #ff40bf;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.button.no {
+   background-color: #f30d0d;
+
+
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
