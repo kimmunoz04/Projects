@@ -21,3 +21,19 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# System files
+.DS_Store
+.zsh_history
+.zshrc
+.vscode/
+npm-debug.log
+
+# User directories
+Downloads/
+Library/
+Movies/
+Music/
+Pictures/
+Public/
+
